@@ -1,0 +1,7 @@
+print("Hello, user!")
+print("This program will tell you the year you'll turn 100.")
+name = input("First things first: what's your name? ")
+age = int(input("How old are you, " + name + "? "))
+subtraction = 100 - age
+final_result = 2021 + int(subtraction)
+print("You will turn 100 in " + str(final_result))
